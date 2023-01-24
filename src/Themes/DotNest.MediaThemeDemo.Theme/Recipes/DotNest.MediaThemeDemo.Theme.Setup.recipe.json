@@ -1,0 +1,34 @@
+{
+  "name": "DotNest.MediaThemeDemo.Theme.Setup",
+  "displayName": "DotNest.MediaThemeDemo.Theme.Setup",
+  "description": "Settings and features required only for development.",
+  "author": "DotNestCoreSDK",
+  "website": "https://www.dotnestcoresdk.com",
+  "version": "1.0",
+  "issetuprecipe": true,
+  "categories": [ "dotnestcoresdk" ],
+  "tags": [],
+
+  "steps": [
+    {
+      "name": "recipes",
+      "Values": [
+        {
+          "executionid": "DotNest.Core.SDK.Web",
+          "name": "DotNest.MediaThemeDemo.Theme.Export"
+        }
+      ]
+    },
+    {
+      "name": "feature",
+      "disable": [],
+      "enable": [
+        "DotNest.MediaThemeDemo.Theme"
+      ]
+    },
+    {
+      "name": "themes",
+      "site": "DotNest.MediaThemeDemo.Theme"
+    }
+  ]
+}
